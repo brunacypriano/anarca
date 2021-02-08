@@ -6,6 +6,8 @@
         background-color: black;
         box-sizing: border-box;
         padding-top: 200px;
+        display: flex;
+        align-content: stretch;
     }
     
 
