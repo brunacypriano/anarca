@@ -8,10 +8,10 @@ body{
 #playlist{
  
 
-    margin: 0 10px;
+    margin: 0;
 
     display: flex;
-    height: 750px;
+    height: 75%;
     /* align-items: center; */
     /* align-content: center; */
     justify-content: space-around;
@@ -34,7 +34,7 @@ body{
 }
 
 .gif{
-    padding-top: 10px;
+    padding-top: 11%;
     max-width: 400px;
     max-height: 270px;
 } 
@@ -49,74 +49,42 @@ body{
 .hide{
     display: none;
 }
-
-
-@media only screen and (max-width: 500px){
-    
-    /* .bg-playlist{
-        /* width: 95%;
-        height: 100%;
-    } */
-    
-    /* #intro{
-        margin: 0;
-    }
-    body{
-        width: 100%;
-        height: auto;
-        margin: 0;
-        background-color: black;
-    }
-    
-    
-    #final-video{
-        margin: 0;
-    }
-    
-    */
-
-
-    
-    .bg-img{
-        width: 100%;
-        position: absolute;
-        z-index: -1;
-        margin: 0;
-    }
-    
-    #playlist{
-        display: inline;
-        width: 100%;
-        height: 80px;
-        /* margin: 0 10px; */
-        /* display: flex;*/
-        /* align-content: center; */
-        
-       /* align-items: center;
-        /* align-content: center; */
-        /* flex-wrap: nowrap;
-        justify-content: space-around;
-    */ 
-    overflow: hidden;
-}
-
-    
+@media only screen and (max-width: 1280px){
     .gif{
-      /* display: none; */
-      padding-top: 10px;
-        max-width: 120px;
-        max-height: 100px;
-        padding-left: 2px;
- 
+        padding-top: 11%;
+        max-width: 350px;
+        max-height: 260px;
     } 
-    
+     
+     
+}
 
-    .show{
-        display: block;
-    }
-    
-    .hide{
-        display: none;
-    }
+@media only screen and (max-width: 1100px){
+    .gif{
+        padding-top: 11%;
+        max-width: 290px;
+        max-height: 210px;
+    } 
+     
+}
+
+@media only screen and (max-width: 945px){
+    .gif{
+        padding-top: 11%;
+        max-width: 250px;
+        max-height: 190px;
+    } 
+     
+}
+
+@media only screen and(max-width: 800px){
+    .gif{
+        padding-top: 11%;
+        max-width: 80px;
+        max-height: 185px;
+    } 
+     
 
 }
+
+
