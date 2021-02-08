@@ -4,15 +4,17 @@
         overflow: hidden;
         margin: 0 auto;
         background-color: black;
+        box-sizing: border-box;
     }
     
+
     #playlist{
      
     
         margin: 0;
     
         display: flex;
-        height: 75%;
+        height: auto;
         /* align-items: center; */
         /* align-content: center; */
         justify-content: space-around;
@@ -24,7 +26,10 @@
     }
     
     
-    
+    .all{
+        padding-top: 100% ;
+
+    }
     
     .bg-img{
         width: 100%;
@@ -61,6 +66,7 @@
         overflow: hidden;
         margin: 0 auto;
         background-color: black;
+        box-sizing: border-box;
     }
     
     #playlist{
@@ -69,7 +75,7 @@
         margin: 0;
     
         display: flex;
-        height: 75%;
+        height: auto;
         justify-content: space-around;
     }
     
@@ -77,8 +83,14 @@
     #final-video{
         margin: 0;
     }
+    #intro{
+        padding-top: 100% ;
+    }
     
-    
+    .all{
+        padding-top: 100% ;
+
+    }
     .bg-img{
         width: 100%;
         position: absolute;
@@ -113,6 +125,7 @@
         overflow: hidden;
         margin: 0 auto;
         background-color: black;
+        box-sizing: border-box;
     }
     
     #playlist{
@@ -121,7 +134,7 @@
         margin: 0;
     
         display: flex;
-        height: 75%;
+        height: auto;
         justify-content: space-around;
     }
     
@@ -129,8 +142,14 @@
     #final-video{
         margin: 0;
     }
+    #intro{
+        padding-top: 100%;
+    }
     
-    
+    .all{
+        padding-top: 100% ;
+
+    }
     .bg-img{
         width: 100%;
         position: absolute;
@@ -165,6 +184,7 @@
         overflow: hidden;
         margin: 0 auto;
         background-color: black;
+        box-sizing: border-box;
     }
     
     #playlist{
@@ -173,7 +193,7 @@
         margin: 0;
     
         display: flex;
-        height: 75%;
+        height: auto;
         justify-content: space-around;
     }
     
@@ -189,7 +209,10 @@
         z-index: -1;
         margin: 0;
     }
-    
+    .all{
+        padding-top: 10% ;
+
+    }
     .gif{
         padding-top: 11%;
         max-width: 300px;
@@ -216,6 +239,7 @@
         overflow: hidden;
         margin: 0 auto;
         background-color: black;
+        box-sizing: border-box;
     }
     
     #playlist{
@@ -224,7 +248,7 @@
         margin: 0;
     
         display: flex;
-        height: 75%;
+        height: auto;
         justify-content: space-around;
     }
     
@@ -232,7 +256,10 @@
     #final-video{
         margin: 0;
     }
-    
+    .all{
+        padding-top: 10% ;
+
+    }
     
     .bg-img{
         width: 100%;
