@@ -1,65 +1,60 @@
-body{
-    width: 100%;
-    overflow: hidden;
-    margin: 0 auto;
-    background-color: black;
-}
-
-#playlist{
- 
-
-    margin: 0;
-
-    display: flex;
-    height: 75%;
-    /* align-items: center; */
-    /* align-content: center; */
-    justify-content: space-around;
-}
-
-
-#final-video{
-    margin: 0;
-}
-
-
-
-
-.bg-img{
-    width: 100%;
-
-    position: absolute;
-    z-index: -1;
-    margin: 0;
-}
-
-.gif{
-    padding-top: 11%;
-    max-width: 400px;
-    max-height: 270px;
-} 
- 
- 
-
-
-.show{
-    display: block;
-}
-
-.hide{
-    display: none;
-}
 @media only screen and (max-width: 1280px){
+    body{
+        width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+        background-color: black;
+    }
+    
+    #playlist{
+     
+    
+        margin: 0;
+    
+        display: flex;
+        height: 75%;
+        /* align-items: center; */
+        /* align-content: center; */
+        justify-content: space-around;
+    }
+    
+    
+    #final-video{
+        margin: 0;
+    }
+    
+    
+    
+    
+    .bg-img{
+        width: 100%;
+    
+        position: absolute;
+        z-index: -1;
+        margin: 0;
+    }
+    
     .gif{
         padding-top: 11%;
-        max-width: 350px;
-        max-height: 260px;
+        max-width: 120px;
+        height: auto;
     } 
      
      
+    
+    
+    .show{
+        display: block;
+    }
+    
+    .hide{
+        display: none;
+    }
+
+     
 }
 
-@media only screen and (max-width: 1100px){
+/* @media only screen and (max-width: 1100px){
     .gif{
         padding-top: 11%;
         max-width: 290px;
@@ -87,4 +82,4 @@ body{
 
 }
 
-
+ */
