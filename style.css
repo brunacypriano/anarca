@@ -26,10 +26,7 @@
     }
     
     
-    .all{
-        padding-top: 30% ;
 
-    }
     
     .bg-img{
         width: 100%;
@@ -83,14 +80,9 @@
     #final-video{
         margin: 0;
     }
-    #intro{
-        padding-top: 100% ;
-    }
-    
-    .all{
-        padding-top: 100% ;
 
-    }
+    
+
     .bg-img{
         width: 100%;
         position: absolute;
@@ -142,14 +134,8 @@
     #final-video{
         margin: 0;
     }
-    #intro{
-        padding-top: 100%;
-    }
-    
-    .all{
-        padding-top: 100% ;
 
-    }
+
     .bg-img{
         width: 100%;
         position: absolute;
