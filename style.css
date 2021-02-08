@@ -27,7 +27,7 @@
     
     
     .all{
-        padding-top: 100% ;
+        padding-top: 30% ;
 
     }
     
@@ -209,10 +209,7 @@
         z-index: -1;
         margin: 0;
     }
-    .all{
-        padding-top: 10%;
 
-    }
     .gif{
         padding-top: 11%;
         max-width: 300px;
@@ -256,10 +253,7 @@
     #final-video{
         margin: 0;
     }
-    .all{
-        padding-top: 10% ;
-
-    }
+  
     
     .bg-img{
         width: 100%;
